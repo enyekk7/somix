@@ -1,0 +1,28 @@
+{
+  "buildCommand": "npm install && cd somix-web && npm install && npm run build",
+  "outputDirectory": "somix-web/dist",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/express-server.js"
+    }
+  ],
+  "functions": {
+    "api/express-server.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  },
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}

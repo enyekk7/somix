@@ -1,0 +1,22 @@
+{
+  "name": "somix-api-function",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "blurhash": "^2.0.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.15.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "form-data": "^4.0.4",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.0",
+    "ws": "^8.18.3"
+  }
+}
+

@@ -1,0 +1,71 @@
+# Ignore unnecessary files for Vercel deployment
+somnia-factory/
+somnia-factory/**
+*.md
+!README.md
+
+# Documentation files
+BLANK_SCREEN_FIX.md
+DEPLOY_FACTORY_CONTRACT.md
+DEPLOY_SINGLE_NFT.md
+ERC721_EXPLANATION.md
+FINAL_FIX.md
+FINAL_RESTART_BACKEND.md
+FIX_API_ERRORS.md
+FIX_POSTS_ERROR.md
+FIX_PUBLIC_MINT.md
+LIKE_ERROR_FIXES.md
+LIKE_FEATURE_GUIDE.md
+NFT_CONTRACT_DEPLOYED.md
+NFT_SYSTEM_GUIDE.md
+OWN_POST_LIKE_FIX_COMPLETE.md
+OWN_POST_LIKE_FIX.md
+PROFILE_REAL_DATA_COMPLETE.md
+PROFILE_REAL_DATA_SYSTEM.md
+PROFILE_STARS_IMPLEMENTATION.md
+QUICK_FIX.md
+QUICK_SINGLE_NFT.md
+README_FACTORY_PATTERN.md
+RESTART_BACKEND.md
+SINGLE_NFT_CHANGES.md
+SOLUTION_NFT_DEPLOYMENT.md
+STARS_SYSTEM.md
+UPDATE_NFT_FIELDS.md
+
+# Test files
+test-*.js
+test-*.js.bak
+
+# Development files
+check-*.js
+fix-*.js
+
+# Somix API development files
+somix-api/check-somixpro.js
+somix-api/check-users.js
+
+# Node modules (will be installed by Vercel)
+**/node_modules/
+node_modules/
+
+# Build artifacts (except for somix-web/dist)
+**/dist/
+!somix-web/dist/
+
+# Logs
+*.log
+
+# Environment files (will be set in Vercel dashboard)
+**/.env
+.env
+.env.local
+.env.production
+.env.development
+
+# IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
