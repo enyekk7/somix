@@ -544,7 +544,7 @@ Backend → Add tokens to user account
 
 **2. SomixPro Subscription**
 ```
-User → Send 0.5 SOMI → 0x862C...3ae39
+User → Send 20 STT → 0x862C...3ae39
 Backend → Activate Pro + 500 tokens
 ```
 
