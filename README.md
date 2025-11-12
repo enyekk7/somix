@@ -6,6 +6,9 @@
 
 **SOMIX** is an AI-powered social media platform with blockchain integration that enables users to create AI art, share it on social feeds, and monetize their creations through NFTs on Somnia Network.
 
+
+demo test : https://y-nine-mauve.vercel.app/
+
 ## 📌 Table of Contents
 
 - [Features](#-features)
